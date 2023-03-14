@@ -1,21 +1,21 @@
 {
-    "name": "llbbl/tapfiliate-php",
+    "name": "bastien-aressas/forked-tapfiliate-php",
     "type": "library",
-    "description": "Tapfiliate API PHP library",
+    "description": "FORKED Tapfiliate API PHP library",
     "keywords": [],
     "homepage": "https://tapfiliate.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "LegacyBetaDev",
-            "email": "developers@legacybeta.com"
+            "name": "Bastouf",
+            "email": "bastien@ares-sas.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0|^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^8|^9"
     },
     "autoload": {
         "psr-4": {
